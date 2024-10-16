@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Shorts</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>News Shorts</h1>
+        <nav>
+            <button class="filter-btn" data-category="all">All</button>
+            <button class="filter-btn" data-category="sports">Sports</button>
+            <button class="filter-btn" data-category="politics">Politics</button>
+            <button class="filter-btn" data-category="technology">Technology</button>
+            <button class="filter-btn" data-category="business">Finance</button>
+        </nav>
+    </header>
+
+    <!-- News ticker starts here -->
+    <div class="news-ticker">
+        <span id="ticker-text">Loading news...</span>
+    </div>
+    <!-- News ticker ends here -->
+
+    <main>
+        <section id="news-container">
+            <!-- News articles will appear here -->
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 News Shorts | All Rights Reserved</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
